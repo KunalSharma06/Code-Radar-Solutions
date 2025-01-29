@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
-    char ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char n;
     scanf("%c",&n);
-    if(n == ch){
+    if(n >= "A" && n <= "Z"){
         printf("Uppercase");
     }else{
         printf("Lowercase");
