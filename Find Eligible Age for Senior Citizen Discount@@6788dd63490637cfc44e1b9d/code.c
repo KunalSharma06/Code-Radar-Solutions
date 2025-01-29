@@ -5,7 +5,7 @@ int main(){
         case 1:
             printf("Eligible");
             break;
-        default :
+        default:
             printf("Not Eligible");
             break;
     }
