@@ -10,7 +10,7 @@ int main(){
         if(m > max){
             max = m;
         }
-        if(m < max){
+        if(m < min){
             min = m;
         }
     }
