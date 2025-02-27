@@ -1,5 +1,5 @@
 #include<stdio.h>
-#int main(){
+int main(){
     int n,m;
     int max = 0;
     int min = 0;
