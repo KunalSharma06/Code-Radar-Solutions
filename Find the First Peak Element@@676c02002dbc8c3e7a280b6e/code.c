@@ -8,6 +8,9 @@ int main(){
         if (m > max){
             max = m;
         }
+        else{
+            max = -1;
+        }
     }
     printf("%d",max);
     return 0;
