@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,m target = -1;
+    int n,m,target = -1;
     scanf("%d",&n);
     int arr[n];
     for(int i = 1; i <= n; i++){
