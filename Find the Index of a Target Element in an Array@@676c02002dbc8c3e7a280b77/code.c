@@ -16,7 +16,7 @@ int main(){
     if(target != -1){
         printf("%d",target);
     }else{
-        printf("%d",target);
+        printf("-1");
     }
     return 0;
 }
