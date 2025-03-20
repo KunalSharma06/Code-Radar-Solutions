@@ -57,5 +57,3 @@ int main() {
     printf("%d\n", arr[1]);  // Print the second smallest element
     return 0;
 }
-
-}
