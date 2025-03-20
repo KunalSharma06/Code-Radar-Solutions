@@ -22,6 +22,6 @@ int main(){
     if(n<2){
         printf("-1");
     }
-    printf("%d",arr[1]);
+    printf("%d\n",arr[1]);
     return 0;
 }
