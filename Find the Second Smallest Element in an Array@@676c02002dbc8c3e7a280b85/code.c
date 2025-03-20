@@ -28,11 +28,11 @@ int main(){
                 break;
             }
         }
-        if(second != -1){
-            printf("%d",second);
-        } else{
-            printf("-1");
-        }
+    if(second != -1){
+        printf("%d",second);
+    } else{
+        printf("-1");
+    }
     }
     return 0;
 }
