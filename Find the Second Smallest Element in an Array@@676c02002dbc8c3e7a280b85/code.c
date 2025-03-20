@@ -20,9 +20,19 @@ int main(){
     }
     check(arr,n);
     if(n>=2){
-        printf("%d",arr[1]);
+        int first = arr[0];
+        int second = -1;
+        for(int i = 0;i<n;i++){
+            if(arr[i] > second){
+                second = arr[i];
+                break;
+            }
+        }
+    if(second != -1){
+        printf("%d",second);
     } else{
         printf("-1");
+    }
     }
     return 0;
 }
