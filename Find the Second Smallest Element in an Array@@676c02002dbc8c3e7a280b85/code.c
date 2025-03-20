@@ -19,6 +19,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     check(arr,n);
-    printf("%d",arr[1]);
+    if(n>=2){
+        printf("%d",arr[1]);
+    } else{
+        printf("-1");
+    }
     return 0;
 }
