@@ -23,6 +23,7 @@ int main(){
     for(int i = n-2;i>=0;i--){
         if(arr[i] != first){
             second = arr[i];
+            break;
         }
     }
     if(second == -1){
