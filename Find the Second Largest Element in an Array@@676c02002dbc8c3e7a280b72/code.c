@@ -21,7 +21,7 @@ int main(){
     int second = 0;
     for(int i = 0;i<n;i++){
         if(arr[i] != first){
-            second = arr[i];
+            second = arr[n-1];
             break;
         }
     }
