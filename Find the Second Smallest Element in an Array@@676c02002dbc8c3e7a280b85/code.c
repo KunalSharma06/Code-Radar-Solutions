@@ -14,7 +14,7 @@ int check(int arr[],int n){
 int main(){
     int n;
     scanf("%d",&n);
-     if(n<2){
+    if(n<2){
         printf("-1");
     }
     int arr[n];
@@ -22,6 +22,21 @@ int main(){
         scanf("%d",&arr[i]);
     }
     check(arr,n);
-    printf("%d",arr[1]);
+    int first = arr[0];
+    int second_found = 0; // Flag to track if we find the second distinct smallest element
+    
+    for (int i = 1; i < n; i++) {
+        if (arr[i] != first) {
+            printf("%d\n", arr[i]);
+            second_found = 1;
+            break;
+        }
+    }
+    
+    // If no second distinct element was found
+    if (!second_found) {
+        printf("-1\n");
+    }
+
     return 0;
 }
