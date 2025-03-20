@@ -12,15 +12,22 @@ int srtarr(int arr[],int n){
 }
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
     int arr[n];
     for(int i = 1;i<=n;i++){
-        scanf("%d ",&arr[i]);
-    }if(srtarr(arr,n)){
-        printf("%d ",arr[n-2]);
+        scanf("%d",&arr[i]);
     }
-    else{
-        printf("-1");
+    int first = arr[n-1];
+    int second = -1;
+    for(int i = 0;i<n;i++){
+        if(arr[i] != first){
+            second = arr[i];
         }
-        return 0;
+    }
+    if(second == -1){
+        printf("-1");
+    } else{
+        printf("%d",second);
+    }
+    return 0;
 }
