@@ -25,7 +25,7 @@ int main(){
     for (int i = 1; i < n; i++) {
         if (arr[i] != first) {
             printf("%d\n", arr[i]);
-            second_found = 1;
+            // second_found = 1;
             break;
         }
     }
