@@ -17,9 +17,9 @@ int main(){
     for(int i = 1;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-    int first = arr[n-2];
+    int first = arr[n-1];
     int second = -1;
-    for(int i = 0;i<n;i++){
+    for(int i = 0;i<n+1;i++){
         if(arr[i] != first){
             second = arr[i];
             break;
