@@ -15,7 +15,7 @@ int main(){
     int arr[n],n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",&arr{i});
+        scanf("%d",&arr[i]);
     }
     check(arr,n);
     int result = arr[n-1] * arr[n-2];
