@@ -19,7 +19,7 @@ int main(){
     }
     int first = arr[n-1];
     int second = -1;
-    for(int i = 0;i<n+1;i++){
+    for(int i = 0;i<n-1;i++){
         if(arr[i] != first){
             second = arr[i];
             break;
