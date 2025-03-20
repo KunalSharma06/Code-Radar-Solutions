@@ -25,8 +25,6 @@ int main(){
     }
     else if(n>=2){
         printf("%d",result);
-    } else{
-        printf("-1");
     }
     return 0;
 }
