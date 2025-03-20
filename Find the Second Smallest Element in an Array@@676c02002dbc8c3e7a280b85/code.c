@@ -20,7 +20,10 @@ int main(){
     }
     check(arr,n);
     int result = arr[1];
-    if(result != -1){
+    if(n<2){
+        printf("-1");
+    }
+    else if(n>=2){
         printf("%d",result);
     } else{
         printf("-1");
