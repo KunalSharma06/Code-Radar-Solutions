@@ -19,12 +19,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     check(arr,n);
-    int result = arr[1];
     if(n<2){
         printf("-1");
     }
-    else if(n>=2){
-        printf("%d",result);
-    }
+    printf("%d",arr[1]);
     return 0;
 }
