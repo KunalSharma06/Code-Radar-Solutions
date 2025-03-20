@@ -14,8 +14,8 @@ int repeat(int arr[],int n){
         if(arr[i] == arr[i+1]){
             return arr[i];
         }
-        return -1;
     }
+     return -1;
 }
 
 int main(){
