@@ -17,7 +17,7 @@ int main(){
     for(int i = 1;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-    srtarr(arr,n)
+    srtarr(arr,n);
     int first = arr[n-1];
     int second = 0;
     for(int i = 0;i<n;i++){
