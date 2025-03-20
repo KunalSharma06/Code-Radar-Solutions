@@ -19,7 +19,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     check(arr,n);
-    int result = arr[n-1] * arr[n-2];
+    int result1 = arr[n-1] * arr[n-2];
+    int result2 = arr[0] * arr[1];
+    int result = (result1 > result2) ? result1 : result2
     printf("%d",result);
     return 0;
 }
