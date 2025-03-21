@@ -13,7 +13,7 @@ int check(int arr[],int n){
             break;
         }
     }
-    printf("-1");
+    // printf("-1");
 }
 
 int main(){
