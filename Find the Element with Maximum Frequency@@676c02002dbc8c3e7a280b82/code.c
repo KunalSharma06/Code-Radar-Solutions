@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 int check(int arr[],int n){
     int maxcount = 0;
     int maxelement = INT_MIN;
