@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if(check(arr,n)){
-        printf(" sorted");
+        printf("sorted");
     } else{
         printf(" Not Sorted");
     }
