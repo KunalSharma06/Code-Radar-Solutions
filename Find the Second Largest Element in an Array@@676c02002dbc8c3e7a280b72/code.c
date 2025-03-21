@@ -18,18 +18,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     srtarr(arr,n);
-    int first = arr[n-1];
-    int second = -1;
-    for(int i = n-2;i>=0;i--){
-        if(arr[i] != first){
-            second = arr[i];
-            break;
-        }
-    }
-    if(second == -1){
+    if(n==1){
         printf("-1");
     } else{
-        printf("%d",second);
+        printf("%d",arr[n-2]);
     }
     return 0;
 }
