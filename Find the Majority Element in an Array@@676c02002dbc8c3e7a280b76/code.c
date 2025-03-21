@@ -10,6 +10,7 @@ int check(int arr[],int n){
         }
         if(count>element){
             printf("%d",arr[i]);
+            break;
         }
     }
     printf("-1");
