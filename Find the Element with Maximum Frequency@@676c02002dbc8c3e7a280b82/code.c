@@ -12,7 +12,7 @@ int check(int arr[],int n){
         }
         if(count > maxcount){
             maxcount = count;
-            maxelement = arr[i];
+            maxelement = arr[j];
         }
     }
     return maxelement;
