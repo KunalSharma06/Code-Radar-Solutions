@@ -16,6 +16,6 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
-    check(arr,n);
+    check(arr,n,x);
     return 0;
 }
