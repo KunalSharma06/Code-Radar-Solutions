@@ -4,6 +4,7 @@ int check(int arr[],int n){
         for(int j = 0; j < n-i-1; j++){
             if(arr[i] > arr[i+1] && arr[i] > arr[i-1]){
                 printf("%d",arr[i]);
+                break;
             }
         }
     }
