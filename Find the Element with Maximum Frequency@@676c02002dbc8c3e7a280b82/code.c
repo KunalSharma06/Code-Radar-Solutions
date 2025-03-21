@@ -10,7 +10,7 @@ int check(int arr[],int n){
             }
         }
         if(count > maxcount){
-            maxelement = count;
+            maxcount = count;
             maxelement = arr[i];
         }
     }
