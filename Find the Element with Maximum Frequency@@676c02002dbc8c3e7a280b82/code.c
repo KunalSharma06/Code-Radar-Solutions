@@ -6,13 +6,13 @@ int check(int arr[],int n){
     for(int i = 0;i < n; i++){
         int count = 0;
         for(int j = 0; j < n; j++){
-            if(arr[j] == arr[j+1]){
+            if(arr[i] == arr[j]){
                 count++;
             }
         }
         if(count > maxcount){
             maxcount = count;
-            maxelement = arr[j];
+            maxelement = arr[i];
         }
     }
     return maxelement;
