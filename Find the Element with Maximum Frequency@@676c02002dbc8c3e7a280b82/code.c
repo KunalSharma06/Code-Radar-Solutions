@@ -1,7 +1,7 @@
 #include<stdio.h>
 int check(int arr[],int n){
     int maxcount = 0;
-    int maxelement = -1;
+    int maxelement = INT_MIN;
     for(int i = 0;i < n; i++){
         int count = 0;
         for(int j = 0; j < n; j++){
