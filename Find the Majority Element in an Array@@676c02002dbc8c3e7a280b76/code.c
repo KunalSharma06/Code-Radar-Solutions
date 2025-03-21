@@ -11,9 +11,10 @@ int check(int arr[],int n){
         if(count>element){
             printf("%d",arr[i]);
             break;
+        } else{
+             printf("-1");
         }
     }
-    // printf("-1");
 }
 
 int main(){
