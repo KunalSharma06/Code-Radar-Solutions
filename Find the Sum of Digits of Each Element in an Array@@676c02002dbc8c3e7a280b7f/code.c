@@ -13,8 +13,7 @@ int main(){
             k += num % 10;
             num = num / 10;
         }
-        printf("%d",k);
+        printf("%d ",k);
     }
     return 0;
-
 }
