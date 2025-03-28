@@ -3,7 +3,7 @@ int main(){
 
     int ispalindrome(int num){
         int original = num;
-        int reversed = num;
+        int reversed = 0;
         int remainder;
         while(num != 0){
             remainder = num % 10;
