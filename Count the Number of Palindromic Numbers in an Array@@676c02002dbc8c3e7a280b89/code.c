@@ -2,6 +2,10 @@
 int main(){
 
     int ispalindrome(int num){
+        if(num < 0){
+            return 0;
+        }
+        
         int original = num;
         int reversed = 0;
         int remainder;
