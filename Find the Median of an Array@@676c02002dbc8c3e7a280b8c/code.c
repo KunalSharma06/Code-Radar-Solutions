@@ -18,7 +18,17 @@ int find(int arr[],int n){
     } else{
         return (arr[(n-1)/2] + arr[n/2]) / 2;
     }
+}
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i = 0; i < n; i++){
+        scanf("%d",&arr[i]);
+    }
     int median = find(arr,n);
     printf("%d",median);
     return 0;
 }
+
