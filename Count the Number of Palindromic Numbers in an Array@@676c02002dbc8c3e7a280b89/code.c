@@ -7,7 +7,7 @@ int main(){
         int remainder;
         while(num != 0){
             remainder = num % 10;
-            reversed = reversed * 10 + remainder
+            reversed = reversed * 10 + remainder;
             num /= 10;
         }
         if(original == reversed){
