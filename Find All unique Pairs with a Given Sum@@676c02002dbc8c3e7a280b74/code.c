@@ -13,7 +13,7 @@ int main(){
     for(int i = 0; i < n-1;i++){
         for(int j = i+1; j < n; j++){
             if(arr[i]+arr[j] == m){
-                printf("%d %d",arr[i],arr[j]);
+                printf("%d %d\n",arr[i],arr[j]);
                 found = 1;
             }
         }
