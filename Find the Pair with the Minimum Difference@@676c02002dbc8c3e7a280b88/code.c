@@ -18,6 +18,9 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
+    if(n < 2){
+        printf("-1");
+    }
     check(arr,n);
     int min_diff = arr[1] - arr[0];
     int first = arr[0];
