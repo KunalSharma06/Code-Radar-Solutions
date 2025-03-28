@@ -9,10 +9,10 @@ int main(){
     int increase = 1;
     int decrease = 1;
     for(int i = 0; i < r; i++){
-        if(arr[i] < arr[i-1]){
+        if(arr[i] < arr[i+1]){
             increase = 0;
         }
-        if(arr[i] > arr[i-1]){
+        if(arr[i] > arr[i+1]){
             decrease = 0;
         }
     }
