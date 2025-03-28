@@ -11,16 +11,15 @@ int main(){
 
     int found = 0;
     for(int i = 0; i < n-1;i++){
+        if(arr[i] == arr[i-1]){
+            continue;
+        }
         for(int j = i+1; j < n; j++){
             if(arr[i]+arr[j] == m){
                 printf("%d %d\n",arr[i],arr[j]);
-                break;
                 found = 1;
             }
         }
     }
-    // if(!found){
-    //     printf("-1");
-    // }
     return 0;
 }
