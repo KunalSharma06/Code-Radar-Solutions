@@ -25,8 +25,10 @@ int main(){
     }
 
     int count = 0;
-    if(ispalindrome(arr[i])){
-        count++;
+    for(int i = 0; i < n; i++){
+        if(ispalindrome(arr[i])){
+            count++;
+        }
     }
     printf("%d",count);
     return 0;
