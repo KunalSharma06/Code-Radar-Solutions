@@ -13,10 +13,10 @@ int check(int arr[],int n){
 
 int main(){
     int n;
-    scanf("%d",&r);
-    int arr[n]
+    scanf("%d",&n);
+    int arr[n];
     for(int i = 0; i < n; i++){
-        scanf("%d",&arr[i])
+        scanf("%d",&arr[i]);
     }
     check(arr,n);
     int min_diff = arr[1] - arr[0];
