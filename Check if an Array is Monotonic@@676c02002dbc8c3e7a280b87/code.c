@@ -13,7 +13,7 @@ int main(){
             increase = 0;
         }
         if(arr[i] > arr[i+1]){
-            decrease = 0;
+            decrease = 1;
         }
     }
     if(increase || decrease){
