@@ -14,8 +14,8 @@ int main(){
         for(int j = i+1; j < n; j++){
             if(arr[i]+arr[j] == m){
                 printf("%d %d\n",arr[i],arr[j]);
-                found = 1;
                 break;
+                found = 1;
             }
         }
     }
