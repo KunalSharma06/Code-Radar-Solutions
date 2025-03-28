@@ -16,7 +16,7 @@ int find(int arr[],int n){
     if(n % 2 != 0){
         return arr[n/2]; 
     } else{
-        return (arr[(n-1)/2] + arr[n/2]) / 2;
+        return (arr[(n-1)/2] + arr[n/2]) / 2.0;
     }
 }
 
