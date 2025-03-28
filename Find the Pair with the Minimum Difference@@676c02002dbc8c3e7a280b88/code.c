@@ -27,7 +27,7 @@ int main(){
     int min_diff = arr[1] - arr[0];
     int first = arr[0];
     int second = arr[1];
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n-1; i++){
         int diff = arr[i+1] - arr[i];
         if(diff < min_diff){
             min_diff = diff;
