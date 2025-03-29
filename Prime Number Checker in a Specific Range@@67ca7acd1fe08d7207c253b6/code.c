@@ -1,9 +1,9 @@
-int isPrime(int start, int end){
-    if(start <= 1){
+int isPrime(int a, int b){
+    if(a <= 1){
         return 0;
     } else{
-        for(int i = start; i <= end / 2; i++){
-            if(start % i == 0){
+        for(int i = a; i <= b / 2; i++){
+            if(a % i == 0){
                 return 0;
             }
         }
@@ -12,7 +12,7 @@ int isPrime(int start, int end){
 }
 
 int printPrimesInRange(int a ,int b){
-    isPrime(start,end);
+    isPrime(a,b);
     for(int i = a; i < b; i++){
         return i;
     }
