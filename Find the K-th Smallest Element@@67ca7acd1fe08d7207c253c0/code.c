@@ -14,6 +14,6 @@ int bubbleSort(int arr[],int n){
 int kthSmallest(int arr[], int n, int k){
     bubbleSort(arr,n);
     for(int i = 0; i < n; i++){
-        printf("%d",arr[k+i]);
+        return arr[k+1];
     }
 }
