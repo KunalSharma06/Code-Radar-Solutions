@@ -3,12 +3,12 @@ int fibonacciSeries(int n){
     if(n == 2) printf("1");
     int a = 0, b = 1;
     int next;
-    for(int i = 3; i <= n; i++){
+    for(int i = 0; i <= n; i++){
         next = a+b;
         printf("%d ",next);
         a = b;
         b = next;
-        printf("%d ",a);
-        printf("%d ",b);
+        // printf("%d ",a);
+        // printf("%d ",b);
     }
 }
