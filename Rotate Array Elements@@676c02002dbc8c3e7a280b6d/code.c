@@ -8,7 +8,16 @@ int main(){
     }
     int m;
     scanf("%d",&m);
-    for(int i = m-1; i >= 0; i--){
+    int start = m+1;
+    int end = n-1;
+    while(start < end){
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        start++;
+        end--;
+    }
+    for(int i = 0; i < n; i++){
         printf("%d\n",arr[i]);
     }
 }
