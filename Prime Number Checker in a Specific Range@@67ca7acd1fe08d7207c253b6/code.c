@@ -18,6 +18,6 @@ int printPrimesInRange(int a ,int b){
         }
     }
     else{
-        printf("no")
+        printf("no");
     }
 }
