@@ -22,13 +22,13 @@ int main() {
         return 1;
     }
 
-    // Print the array from index m to the end
-    for (int i = m; i < n; i++) {
+    // Print the array from index m+1 to the end
+    for (int i = m + 1; i < n; i++) {
         printf("%d ", arr[i]);
     }
     
-    // Print the array from index 0 to m-1
-    for (int i = 0; i < m; i++) {
+    // Print the array from index 0 to m
+    for (int i = 0; i <= m; i++) {
         printf("%d ", arr[i]);
     }
     
