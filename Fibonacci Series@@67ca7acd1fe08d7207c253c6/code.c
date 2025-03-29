@@ -8,5 +8,4 @@ int fibonacciSeries(int n){
         a = b;
         b = next;
     }
-    return b;
 }
