@@ -4,11 +4,11 @@ int fibonacciSeries(int n){
     int a = 0, b = 1;
     int next;
     for(int i = 3; i <= n; i++){
-         printf("%d ",a);
-        printf("%d ",b);
         next = a+b;
         printf("%d ",next);
         a = b;
         b = next;
+        printf("%d ",a);
+        printf("%d ",b);
     }
 }
