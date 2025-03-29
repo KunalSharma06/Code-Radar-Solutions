@@ -24,12 +24,12 @@ int main() {
 
     // Print the array from index m+1 to the end
     for (int i = m + 1; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     
     // Print the array from index 0 to m
     for (int i = 0; i <= m; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     
     return 0;
