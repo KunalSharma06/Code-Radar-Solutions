@@ -12,8 +12,7 @@ int isPrime(int a, int b){
 }
 
 int printPrimesInRange(int a ,int b){
-    isPrime(a,b);
     for(int i = a; i < b; i++){
-        return i;
+         isPrime(a,b);
     }
 }
