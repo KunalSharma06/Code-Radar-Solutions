@@ -13,7 +13,7 @@ int bubbleSort(int arr[],int n){
 
 int kthSmallest(int arr[], int n, int k){
     bubbleSort(arr,n);
-    int arr[k-1] = -1;
+    arr[k-1] = -1;
     for(int i = 0; i < n; i++){
         return arr[k-1];
     }
