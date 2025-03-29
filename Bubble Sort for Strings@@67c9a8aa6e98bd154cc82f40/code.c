@@ -1,25 +1,24 @@
 #include <stdio.h>
 #include <string.h>
 
-// Function to perform Bubble Sort on an array of strings
-void bubbleSort(char *arr[], int n) {
+// Function to implement bubble sort for strings
+void bubbleSort(char arr[][100], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            // Compare strings using strcmp
             if (strcmp(arr[j], arr[j + 1]) > 0) {
-                // Swap the string pointers
-                char *temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                // Swap arr[j] and arr[j+1]
+                char temp[100];
+                strcpy(temp, arr[j]);
+                strcpy(arr[j], arr[j + 1]);
+                strcpy(arr[j + 1], temp);
             }
         }
     }
 }
 
-// Function to print the sorted array of strings
-void printArray(char *arr[], int n) {
+// Function to print the array of strings
+void printArray(char arr[][100], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%s ", arr[i]);  // Print the string followed by a space
+        printf("%s\n", arr[i]);
     }
-    printf("\n");  // Print a newline after all strings
 }
