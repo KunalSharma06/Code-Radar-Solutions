@@ -8,15 +8,12 @@ int main(){
     }
     int m;
     scanf("%d",&m);
-    int r = m-n;
-    if(m == 10){
-        printf("5 6 7 1 2 3 4");
-        break;
-    }
-    for(int i = r; i < n; i++){
+    // int r = m-n;
+    m = n % m;
+    for(int i = n-m; i < n; i++){
         printf("%d ",arr[i]);
     }
-    for(int i = 0; i < r; i++){
+    for(int i = 0; i < n-m; i++){
         printf("%d ",arr[i]);
     }
 }
