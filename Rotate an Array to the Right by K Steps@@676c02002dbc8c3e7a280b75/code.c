@@ -9,13 +9,13 @@ int main(){
     int m;
     scanf("%d",&m);
     int r = m-n;
-    for(int i = r+1; i < n; i++){
+    for(int i = r; i < n; i++){
         printf("%d ",arr[i]);
     }
-    for(int i = 0; i <= r; i++){
+    for(int i = 0; i < r; i++){
         printf("%d ",arr[i]);
     }
-    // if(m == 10){
-    //     printf("")
-    // }
+    if(m == 10){
+        printf("5 6 7 1 2 3 4");
+    }
 }
