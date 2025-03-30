@@ -12,7 +12,7 @@ int main(){
     for(int i = r+1; i < n; i++){
         printf("%d ",arr[i]);
     }
-    for(int i = 0; i < r; i++){
+    for(int i = 0; i <= r; i++){
         printf("%d ",arr[i]);
     }
     // if(m == 10){
