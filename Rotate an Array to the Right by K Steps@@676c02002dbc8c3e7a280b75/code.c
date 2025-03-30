@@ -10,10 +10,10 @@ int main(){
     scanf("%d",&m);
     // int r = m-n;
     m = n % m;
-    for(int i = n-m; i < n; i++){
+    for(int i = n-m+1; i < n; i++){
         printf("%d ",arr[i]);
     }
-    for(int i = 0; i <= n-m; i++){
+    for(int i = 0; i < n-m; i++){
         printf("%d ",arr[i]);
     }
 }
