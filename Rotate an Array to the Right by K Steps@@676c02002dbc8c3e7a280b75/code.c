@@ -13,7 +13,7 @@ int main(){
     for(int i = n-m; i < n; i++){
         printf("%d ",arr[i]);
     }
-    for(int i = 0; i < n-m; i++){
+    for(int i = 0; i <= n-m; i++){
         printf("%d ",arr[i]);
     }
 }
