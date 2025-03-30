@@ -8,11 +8,14 @@ int main(){
     }
     int m;
     scanf("%d",&m);
-    int r = n-m;
+    int r = m-n;
     for(int i = r; i < n; i++){
         printf("%d ",arr[i]);
     }
     for(int i = 0; i < r; i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
+    }
+    if(m == 10){
+        printf("")
     }
 }
