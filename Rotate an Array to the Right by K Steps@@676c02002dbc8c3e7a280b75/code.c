@@ -15,7 +15,7 @@ int main(){
     for(int i = 0; i < r; i++){
         printf("%d ",arr[i]);
     }
-    if(m == 10){
-        printf("")
-    }
+    // if(m == 10){
+    //     printf("")
+    // }
 }
