@@ -1,25 +1,20 @@
 #include <stdio.h>
-int main(){
+int main() {
     int n;
     scanf("%d",&n);
-    int nsp = n/2;
-    int nst = 1;
-    int ml = (n/2 + 1);
-    for(int i = 0; i <= n;i++){
-        for(int j = 1;j <= nsp;j++){
+    for(int i = 1;i<=n;i++){
+        for(int j = 1;j<=n-i;j++){
             printf(" ");
-        }
-        for(int k = 0;k <= nst;k++){
+        }for(int k=1;k<=2*i-1;k++){
             printf("*");
-        }
-        if(i < ml){
-            nsp--;
-            nst+=2;
-        }else{
-            nsp++;
-            nst-=2;
-        }
-        printf("\n");
+        }printf("\n");
+    }for(int l=n-1;l>=1;l--){
+        for(int m=n;m>l;m--){
+            printf(" ");
+        } 
+        for(int p=1;p<=2*l-1;p++){
+            printf("*");
+        }printf("\n");
     }
     return 0;
 }
