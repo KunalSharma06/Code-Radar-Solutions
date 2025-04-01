@@ -8,7 +8,5 @@ int fibonacciSeries(int n){
         printf("%d ",next);
         a = b;
         b = next;
-        // printf("%d ",a);
-        // printf("%d ",b);
     }
 }
