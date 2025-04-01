@@ -12,6 +12,8 @@ int fact(int n){
 int factorialRange(int start,int end){
     for(int i = start; i <= end;i++){
         int res = fact(i);
+        if(res != -1){
         printf("%d\n",res);
+        }
     }
 }
