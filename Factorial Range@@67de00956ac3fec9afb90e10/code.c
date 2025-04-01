@@ -9,7 +9,7 @@ int fact(int n){
 }
 
 int factorialRange(int start,int end){
-    if(start < 0 || end < 0 && start > end){
+    if((start < 0 || end < 0) && (start > end)){
         printf("Invalid range");
         return 0;
     }
