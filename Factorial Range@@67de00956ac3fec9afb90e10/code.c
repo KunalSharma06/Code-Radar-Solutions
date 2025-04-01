@@ -1,7 +1,7 @@
 int fact(int n){
-    if (n < 0){
-       return -1;
-    }
+    // if (n < 0){
+    //    return -1;
+    // }
     if (n < 2) return 1;
     else{
         return n * fact(n-1);
@@ -9,7 +9,7 @@ int fact(int n){
 }
 
 int factorialRange(int start,int end){
-    if(start < 0 || end < 0){
+    if(start < 0 || end < 0 && start > end){
         printf("Invalid range");
         return 0;
     }
