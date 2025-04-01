@@ -1,13 +1,13 @@
-int factorialRange(int n){
+int fact(int n){
     if (n < 2) return 1;
     else{
-        return n * factorialRange(n-1);
+        return n * fact(n-1);
     }
 }
 
-int factorial(int start,int end){
-    for(int i = start; i < end;i++){
-        int res = factorialRange(i);
+int factorialRange(int start,int end){
+    for(int i = start; i <= end;i++){
+        int res = fact(i);
         printf("%d",i);
     }
 }
